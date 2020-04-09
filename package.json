@@ -1,0 +1,39 @@
+{
+  "name": "demo-design",
+  "version": "0.1.0",
+  "description": "demonstration of component library",
+  "main": "./build/index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jozzeh/demo-design.git"
+  },
+  "keywords": [
+    "demo",
+    "component",
+    "library"
+  ],
+  "author": "Jozzeh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jozzeh/demo-design/issues"
+  },
+  "homepage": "https://github.com/Jozzeh/demo-design#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.3.0",
+    "style-loader": "^1.0.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.13.0"
+  }
+}
