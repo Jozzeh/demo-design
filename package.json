@@ -37,6 +37,6 @@
     "react": "^16.13.0"
   },
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com/@jozzeh"
+    "registry": "https://npm.pkg.github.com/@jozzeh"
   }
 }

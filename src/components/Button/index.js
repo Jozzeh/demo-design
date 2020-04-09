@@ -3,7 +3,9 @@ import React from "react";
 import PropTypes from 'prop-types';
 
 const Button = (props) => {
-  return <button className="buttonStyle">{props.value}</button>;
+  const {value, ...rest } = props;
+
+  return <button className="buttonStyle" {...rest}>{value}</button>;
 }
 
 Button.propTypes = {

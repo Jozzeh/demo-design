@@ -1,9 +1,11 @@
 import React from "react";
 
 const Panel = (props) => {
+  const {children, ...rest } = props;
+
   return (
-    <div className="panelStyle">
-      {props.children}
+    <div className="panelStyle" {...rest}>
+      {children}
     </div>
   );
 };
