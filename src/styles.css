@@ -1,12 +1,15 @@
 .buttonStyle {
-  background-color: #8244e5;
+  background-color: #fff;
+  color: #444;
+  padding: 15px;
+  border: solid 2px #ccc;
 }
 
 .panelStyle {
   padding: 15px;
   margin-bottom: 1.25rem;
   border-radius: 0;
-  background-color: #FFF;
+  background-color: #000;
   -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,.16), 0 0 2px 0 rgba(0,0,0,.12);
   box-shadow: 0 2px 2px 0 rgba(0,0,0,.16), 0 0 2px 0 rgba(0,0,0,.12);
 }

@@ -1,6 +1,6 @@
 {
   "name": "demo-design",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "demonstration of component library",
   "main": "./build/index.js",
   "scripts": {
